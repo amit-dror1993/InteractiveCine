@@ -1,0 +1,842 @@
+fileFormatVersion: 2
+guid: 34a86873e69f344419fb74e70bf81a4c
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bu_new_RIG_hat_shoe
+    second: {fileID: 2100000, guid: 173c132c33d404a559eba7d63ef929a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bu_new_RIG_lambert2
+    second: {fileID: 2100000, guid: 84a8dcf38355f44e590739fe37b0865b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bu_new_RIG_lambert5
+    second: {fileID: 2100000, guid: 276573f2c556f4efeac381a76a2cfead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bu_new_RIG_lambert6
+    second: {fileID: 2100000, guid: 1f8ab8909b17d4b01bd1451074945aae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bu_new_RIG_shirt
+    second: {fileID: 2100000, guid: 8c988040ce1a746f4b32a934dd864b03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bag
+    second: {fileID: 2100000, guid: 5af1734039fb24316ae33f41161cdf65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pants
+    second: {fileID: 2100000, guid: d5cc81bb95b634008ad0818b1a0f652e, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 200
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: BU_Character_intro(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left
+      parentName: BU_Character_intro(Clone)
+      position: {x: 10.000999, y: 0.03650356, z: 0.004578307}
+      rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:main
+      parentName: BU_Character_intro(Clone)
+      position: {x: 0, y: -0.00207353, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:foot_R
+      parentName: Bu_new_RIG:main
+      position: {x: 0.0035637887, y: 0.0040851627, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:ikHandle2
+      parentName: Bu_new_RIG:foot_R
+      position: {x: 0.000006251037, y: -0.000011903941, z: -0.00007545124}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:ikHandle3
+      parentName: Bu_new_RIG:foot_R
+      position: {x: 0.0028704843, y: -0.0012001267, z: 0.00417024}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Base
+      parentName: Bu_new_RIG:main
+      position: {x: -0, y: 0.03267014, z: 0}
+      rotation: {x: 0, y: 0, z: 1.6684258e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Leg_L
+      parentName: Bu_new_RIG:Base
+      position: {x: -0.0037027397, y: -0.0032950984, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Leg_R
+      parentName: Bu_new_RIG:Base
+      position: {x: 0.0036687695, y: -0.0032950984, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Spine1
+      parentName: Bu_new_RIG:Base
+      position: {x: -0, y: 0.0046528666, z: 0}
+      rotation: {x: 0.09696732, y: -0, z: -0, w: 0.9952876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Spine2
+      parentName: Bu_new_RIG:Spine1
+      position: {x: -0, y: 0.0034072855, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Spine3
+      parentName: Bu_new_RIG:Spine2
+      position: {x: -0, y: 0.00406586, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Spine4
+      parentName: Bu_new_RIG:Spine3
+      position: {x: -0, y: 0.0035047242, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Shoulder_L
+      parentName: Bu_new_RIG:Spine4
+      position: {x: -0.0035613026, y: 0.0023218135, z: 0}
+      rotation: {x: -0.0008908412, y: -0.0014610077, z: 0.35280025, w: 0.9356971}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Hand_L1
+      parentName: Bu_new_RIG:Shoulder_L
+      position: {x: -0.001881448, y: 0, z: 0}
+      rotation: {x: 0.2348993, y: 0.015098534, z: 0.16571714, w: 0.9576702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Hand_L2
+      parentName: Bu_new_RIG:Hand_L1
+      position: {x: -0.009827224, y: -0.0016034417, z: 0}
+      rotation: {x: 0.11096874, y: 0.008179178, z: 0.073051184, w: 0.99110174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Hand_L3
+      parentName: Bu_new_RIG:Hand_L2
+      position: {x: -0.006594581, y: 0.00012561107, z: 0}
+      rotation: {x: 0.00749531, y: 0.00055161247, z: -0.07339378, w: 0.9972747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL4_1
+      parentName: Bu_new_RIG:Hand_L3
+      position: {x: -0.0028058754, y: 0, z: -0.002031267}
+      rotation: {x: 0, y: 0, z: 0.47237903, w: 0.8813955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL4_2
+      parentName: Bu_new_RIG:FingerL4_1
+      position: {x: -0.0013203234, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.63388145, w: 0.7734302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL4_3
+      parentName: Bu_new_RIG:FingerL4_2
+      position: {x: -0.0011534694, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.63388145, w: 0.7734302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL3_1
+      parentName: Bu_new_RIG:Hand_L3
+      position: {x: -0.0028058754, y: 0, z: -0.00065290724}
+      rotation: {x: 0, y: 0, z: 0.47237903, w: 0.8813955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL3_2
+      parentName: Bu_new_RIG:FingerL3_1
+      position: {x: -0.0021110666, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.63388145, w: 0.7734302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL3_3
+      parentName: Bu_new_RIG:FingerL3_2
+      position: {x: -0.0019442127, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.63388145, w: 0.7734302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL2_1
+      parentName: Bu_new_RIG:Hand_L3
+      position: {x: -0.0028058754, y: 0, z: 0.00068192533}
+      rotation: {x: 0, y: 0, z: 0.47237903, w: 0.8813955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL2_2
+      parentName: Bu_new_RIG:FingerL2_1
+      position: {x: -0.0022198847, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.63388145, w: 0.7734302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL2_3
+      parentName: Bu_new_RIG:FingerL2_2
+      position: {x: -0.0019587218, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.63388145, w: 0.7734302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL1_1
+      parentName: Bu_new_RIG:Hand_L3
+      position: {x: -0.0028058754, y: 0, z: 0.002031267}
+      rotation: {x: 0, y: 0, z: 0.47237903, w: 0.8813955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL1_2
+      parentName: Bu_new_RIG:FingerL1_1
+      position: {x: -0.0021908665, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.63388145, w: 0.7734302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerL1_3
+      parentName: Bu_new_RIG:FingerL1_2
+      position: {x: -0.0019587218, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.63388145, w: 0.7734302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:ThumbL_1
+      parentName: Bu_new_RIG:Hand_L3
+      position: {x: -0.0015386567, y: 0, z: 0.0027071172}
+      rotation: {x: 0.32955068, y: -0, z: -0, w: 0.9441379}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:ThumbL_2
+      parentName: Bu_new_RIG:ThumbL_1
+      position: {x: -0, y: 0, z: 0.0014467416}
+      rotation: {x: 0.44068053, y: -0, z: -0, w: 0.897664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Shoulder_R1
+      parentName: Bu_new_RIG:Spine4
+      position: {x: 0.0035778969, y: 0.0023218135, z: 0}
+      rotation: {x: 0, y: -0, z: -0.34036785, w: 0.94029236}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Hand_R1
+      parentName: Bu_new_RIG:Shoulder_R1
+      position: {x: 0.0019343311, y: 0, z: 0}
+      rotation: {x: 0.27573964, y: -0.05488139, z: -0.18718202, w: 0.9412325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Hand_R2
+      parentName: Bu_new_RIG:Hand_R1
+      position: {x: 0.009808227, y: -0.0016034417, z: 0}
+      rotation: {x: -0.041246627, y: 0.0024025715, z: -0.0581007, w: 0.9974554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Hand_R3
+      parentName: Bu_new_RIG:Hand_R2
+      position: {x: 0.006561925, y: 0.00012561107, z: 0}
+      rotation: {x: 0.012767487, y: -0.07027192, z: 0.10882325, w: 0.99149203}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:ThumbR_3
+      parentName: Bu_new_RIG:Hand_R3
+      position: {x: 0.0014743129, y: 0, z: 0.0027071172}
+      rotation: {x: 0.53154474, y: -0, z: -0, w: 0.8470302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:ThumbR_4
+      parentName: Bu_new_RIG:ThumbR_3
+      position: {x: -0, y: 0, z: 0.0014467416}
+      rotation: {x: 0.53154474, y: -0, z: -0, w: 0.8470302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR1_4
+      parentName: Bu_new_RIG:Hand_R3
+      position: {x: 0.0028306737, y: 0, z: 0.002031267}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR1_5
+      parentName: Bu_new_RIG:FingerR1_4
+      position: {x: 0.0022048617, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR1_6
+      parentName: Bu_new_RIG:FingerR1_5
+      position: {x: 0.0019050199, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR2_4
+      parentName: Bu_new_RIG:Hand_R3
+      position: {x: 0.0028306737, y: 0, z: 0.00068192533}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR2_5
+      parentName: Bu_new_RIG:FingerR2_4
+      position: {x: 0.0021983539, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR2_6
+      parentName: Bu_new_RIG:FingerR2_5
+      position: {x: 0.0019372324, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR3_4
+      parentName: Bu_new_RIG:Hand_R3
+      position: {x: 0.0028306737, y: 0, z: -0.00065290724}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR3_5
+      parentName: Bu_new_RIG:FingerR3_4
+      position: {x: 0.0020936183, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR3_6
+      parentName: Bu_new_RIG:FingerR3_5
+      position: {x: 0.0019475331, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR4_4
+      parentName: Bu_new_RIG:Hand_R3
+      position: {x: 0.0028306737, y: 0, z: -0.002031267}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR4_5
+      parentName: Bu_new_RIG:FingerR4_4
+      position: {x: 0.0013287996, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FingerR4_6
+      parentName: Bu_new_RIG:FingerR4_5
+      position: {x: 0.0011092293, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.680758, w: 0.73250836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Neck1
+      parentName: Bu_new_RIG:Spine4
+      position: {x: -0, y: 0.0052031833, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Neck
+      parentName: Bu_new_RIG:Neck1
+      position: {x: -0, y: 0.0022797375, z: 0}
+      rotation: {x: 0.0596893, y: -0, z: -0, w: 0.99821705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:Head
+      parentName: Bu_new_RIG:Neck
+      position: {x: -0, y: 0.009294167, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:ffd1Lattice
+      parentName: Bu_new_RIG:Head
+      position: {x: -0.000013002604, y: -0.003691268, z: 0.0053469865}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.80021435, y: 0.42738903, z: 0.31558022}
+    - name: pCube2
+      parentName: Bu_new_RIG:Spine3
+      position: {x: -0, y: -0.0016671704, z: -0.010405643}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.6557153, z: 0.8257528}
+    - name: polySurface2
+      parentName: pCube2
+      position: {x: -0, y: -4.440892e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:foot_L
+      parentName: Bu_new_RIG:main
+      position: {x: -0.0035284502, y: 0.0040851627, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:ikHandle1
+      parentName: Bu_new_RIG:foot_L
+      position: {x: 0.000006430149, y: -0.000011903941, z: -0.00007545124}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:ikHandle4
+      parentName: Bu_new_RIG:foot_L
+      position: {x: -0.0028841768, y: -0.001221038, z: 0.004209334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:main1
+      parentName: Bu_new_RIG:main
+      position: {x: 0.00002400761, y: 0.032773122, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:spine
+      parentName: Bu_new_RIG:main1
+      position: {x: -0.00004703595, y: 0.0043757213, z: -0.00003426154}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:spine1
+      parentName: Bu_new_RIG:spine
+      position: {x: -8.673617e-21, y: 0.0035909184, z: 2.220446e-18}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:spine2
+      parentName: Bu_new_RIG:spine1
+      position: {x: -0, y: 0.0040979567, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:spine3
+      parentName: Bu_new_RIG:spine2
+      position: {x: 1.1275702e-19, y: 0.0033817987, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:shoulderL3
+      parentName: Bu_new_RIG:spine3
+      position: {x: 0.003599924, y: 0.0023957985, z: -1.8907097e-15}
+      rotation: {x: -3.8116483e-17, y: -0.000000005820766, z: 0.000000018189894, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:ShoulderL2 1
+      parentName: Bu_new_RIG:shoulderL3
+      position: {x: 0.0019238126, y: 0.000025721534, z: 0.000008890708}
+      rotation: {x: -0.000008350742, y: -0.000019356194, z: 0.21658438, w: 0.97626394}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: Bu_new_RIG:HandL1 1
+      parentName: Bu_new_RIG:ShoulderL2 1
+      position: {x: 0.0037802367, y: -0.0016262555, z: -7.6327835e-18}
+      rotation: {x: -0.00033226507, y: -0.00092916435, z: -0.15178752, w: 0.9884127}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Bu_new_RIG:HandL4
+      parentName: Bu_new_RIG:HandL1 1
+      position: {x: 0.006089323, y: 0.00017544394, z: -0.000014403591}
+      rotation: {x: -3.5527137e-15, y: -0.00000002328307, z: -0.000000011641531, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Bu_new_RIG:HandL2 1
+      parentName: Bu_new_RIG:HandL4
+      position: {x: 0.0065157465, y: -0.0000022215877, z: -0.00000020692771}
+      rotation: {x: 0.00000006984919, y: 0.000000017280401, z: -0.000000015188562,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: Bu_new_RIG:finger2_1 1
+      parentName: Bu_new_RIG:HandL2 1
+      position: {x: 0.002884465, y: -0.000035701698, z: 0.00068340625}
+      rotation: {x: -0.00000002910383, y: 0.000000064210326, z: -0.0000000022737425,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: Bu_new_RIG:finger2_2 1
+      parentName: Bu_new_RIG:finger2_1 1
+      position: {x: 0.0022594817, y: -0.00006402472, z: 0}
+      rotation: {x: -0.000000040745363, y: -0.000000037834972, z: 0.0000000029103828,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1}
+    - name: Bu_new_RIG:finger2_3 1
+      parentName: Bu_new_RIG:finger2_2 1
+      position: {x: 0.001972526, y: -0.00008014009, z: 0}
+      rotation: {x: 0.000000017462298, y: -0.000000032014214, z: -0.000000008731142,
+        w: 1}
+      scale: {x: 1, y: 0.9999996, z: 0.99999994}
+    - name: Bu_new_RIG:finger3_1 1
+      parentName: Bu_new_RIG:HandL2 1
+      position: {x: 0.002884465, y: -0.000035701698, z: -0.0006836571}
+      rotation: {x: -0.00000002910383, y: 0.000000064210326, z: -0.0000000022737425,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: Bu_new_RIG:finger3_2 1
+      parentName: Bu_new_RIG:finger3_1 1
+      position: {x: 0.0021534886, y: -0.0000473938, z: -4.440892e-18}
+      rotation: {x: -0.000000040745363, y: -0.000000037834972, z: 0.0000000029103828,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1}
+    - name: Bu_new_RIG:finger3_3 1
+      parentName: Bu_new_RIG:finger3_2 1
+      position: {x: 0.0019974944, y: -0.00005319843, z: -2.220446e-18}
+      rotation: {x: 0.000000017462298, y: -0.000000032014214, z: -0.000000008731142,
+        w: 1}
+      scale: {x: 1, y: 0.9999996, z: 0.99999994}
+    - name: Bu_new_RIG:finger4_1 1
+      parentName: Bu_new_RIG:HandL2 1
+      position: {x: 0.002884465, y: -0.000035701698, z: -0.0020347633}
+      rotation: {x: -0.00000002910383, y: 0.000000064210326, z: -0.0000000022737425,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: Bu_new_RIG:finger4_2 1
+      parentName: Bu_new_RIG:finger4_1 1
+      position: {x: 0.001387387, y: -0.000033193955, z: -2.220446e-18}
+      rotation: {x: -0.000000040745363, y: -0.000000037834972, z: 0.0000000029103828,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1}
+    - name: Bu_new_RIG:finger4_3 1
+      parentName: Bu_new_RIG:finger4_2 1
+      position: {x: 0.0011747679, y: -0.000077665085, z: 4.440892e-18}
+      rotation: {x: 0.000000017462298, y: -0.000000032014214, z: -0.000000008731142,
+        w: 1}
+      scale: {x: 1, y: 0.9999996, z: 0.99999994}
+    - name: Bu_new_RIG:finger1_1 1
+      parentName: Bu_new_RIG:HandL2 1
+      position: {x: 0.002884465, y: -0.000035701698, z: 0.0020351436}
+      rotation: {x: -0.00000002910383, y: 0.000000064210326, z: -0.0000000022737425,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: Bu_new_RIG:finger1_2 1
+      parentName: Bu_new_RIG:finger1_1 1
+      position: {x: 0.0022632843, y: -0.000027262764, z: 2.220446e-18}
+      rotation: {x: -0.000000040745363, y: -0.000000037834972, z: 0.0000000029103828,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1}
+    - name: Bu_new_RIG:finger1_3 1
+      parentName: Bu_new_RIG:finger1_2 1
+      position: {x: 0.0019768253, y: -0.00007549501, z: 0}
+      rotation: {x: 0.000000017462298, y: -0.000000032014214, z: -0.000000008731142,
+        w: 1}
+      scale: {x: 1, y: 0.9999996, z: 0.99999994}
+    - name: Bu_new_RIG:Thumb1 1
+      parentName: Bu_new_RIG:HandL2 1
+      position: {x: 0.0015104167, y: -0.00003115102, z: 0.0027533548}
+      rotation: {x: -0.0059984894, y: 0.28539494, z: 0.005580363, w: 0.95837504}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: Bu_new_RIG:Thumb2 1
+      parentName: Bu_new_RIG:Thumb1 1
+      position: {x: -0.0000069759003, y: -0.000029244895, z: 0.0014880243}
+      rotation: {x: -0.000000005820766, y: -0.000000025397647, z: 0.000000026284393,
+        w: 1}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1.0000011}
+    - name: Bu_new_RIG:neck
+      parentName: Bu_new_RIG:spine3
+      position: {x: -0.0000015183036, y: 0.0051105917, z: -3.330669e-18}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:neck2
+      parentName: Bu_new_RIG:neck
+      position: {x: 1.062388e-15, y: 0.0024674465, z: 0.0000012506146}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:head
+      parentName: Bu_new_RIG:neck2
+      position: {x: 3.469447e-20, y: 0.009411106, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:shoulderL
+      parentName: Bu_new_RIG:spine3
+      position: {x: -0.0035235742, y: 0.0024076218, z: 0.00000004872542}
+      rotation: {x: -0.000000005820767, y: 0.000000005820766, z: -0.000000005820766,
+        w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: Bu_new_RIG:ShoulderL2
+      parentName: Bu_new_RIG:shoulderL
+      position: {x: -0.0019212835, y: 0.000014183042, z: 0.0000060273874}
+      rotation: {x: 0.0000000058207674, y: 0.000000011641532, z: -0.000000005820766,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:HandL1
+      parentName: Bu_new_RIG:ShoulderL2
+      position: {x: -0.0037675707, y: -0.0016292946, z: 8.881784e-18}
+      rotation: {x: -0.0000022863512, y: 0.000021519469, z: 0.0063060373, w: 0.99998015}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: Bu_new_RIG:HandL3
+      parentName: Bu_new_RIG:HandL1
+      position: {x: -0.005922328, y: 0.000016865168, z: -0.0000022047811}
+      rotation: {x: 0.00000053329313, y: -0.000020161902, z: 0.011946363, w: 0.9999287}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Bu_new_RIG:HandL2
+      parentName: Bu_new_RIG:HandL3
+      position: {x: -0.006679152, y: 0.00017507361, z: 0.00000059368006}
+      rotation: {x: 0.000000069849186, y: -0.000000017462298, z: -0.000000011641532,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: Bu_new_RIG:finger2_1
+      parentName: Bu_new_RIG:HandL2
+      position: {x: -0.0028628036, y: -0.000017766164, z: 0.00068062526}
+      rotation: {x: -0.00060621044, y: 0.035333738, z: -0.0016272087, w: 0.99937403}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1}
+    - name: Bu_new_RIG:finger2_2
+      parentName: Bu_new_RIG:finger2_1
+      position: {x: -0.0022648615, y: -0.000038852122, z: 4.440892e-18}
+      rotation: {x: -0.000000034924597, y: -0, z: 5.493653e-16, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: Bu_new_RIG:finger2_3
+      parentName: Bu_new_RIG:finger2_2
+      position: {x: -0.0019964832, y: -0.00003299097, z: 0}
+      rotation: {x: -0, y: 8.1315163e-16, z: -0.000000023283064, w: 1}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: Bu_new_RIG:finger3_1
+      parentName: Bu_new_RIG:HandL2
+      position: {x: -0.0028628036, y: -0.000017766164, z: -0.0006650482}
+      rotation: {x: -0.00043409146, y: 0.035271034, z: -0.00090489077, w: 0.99937725}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1}
+    - name: Bu_new_RIG:finger3_2
+      parentName: Bu_new_RIG:finger3_1
+      position: {x: -0.0021535696, y: -0.00002650115, z: 4.440892e-18}
+      rotation: {x: -0.000000034924597, y: -0, z: 5.493653e-16, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: Bu_new_RIG:finger3_3
+      parentName: Bu_new_RIG:finger3_2
+      position: {x: -0.001994946, y: -0.0000348665, z: 0}
+      rotation: {x: -0, y: 8.1315163e-16, z: -0.000000023283064, w: 1}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: Bu_new_RIG:finger4_1
+      parentName: Bu_new_RIG:HandL2
+      position: {x: -0.0028628036, y: -0.000017766164, z: -0.0020309573}
+      rotation: {x: -0.000989393, y: 0.035597015, z: -0.003232057, w: 0.9993605}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1}
+    - name: Bu_new_RIG:finger4_2
+      parentName: Bu_new_RIG:finger4_1
+      position: {x: -0.0013651183, y: -0.000037943024, z: -4.440892e-18}
+      rotation: {x: -0.000000034924597, y: -0, z: 5.493653e-16, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: Bu_new_RIG:finger4_3
+      parentName: Bu_new_RIG:finger4_2
+      position: {x: -0.0011931431, y: -0.000037908627, z: -4.440892e-18}
+      rotation: {x: -0, y: 8.1315163e-16, z: -0.000000023283064, w: 1}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: Bu_new_RIG:finger1_1
+      parentName: Bu_new_RIG:HandL2
+      position: {x: -0.0028628036, y: -0.000017766164, z: 0.0020262988}
+      rotation: {x: -0.0005933011, y: 0.035327878, z: -0.0015730625, w: 0.99937433}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1}
+    - name: Bu_new_RIG:finger1_2
+      parentName: Bu_new_RIG:finger1_1
+      position: {x: -0.0022355812, y: -0.000037542693, z: 0}
+      rotation: {x: -0.000000034924597, y: -0, z: 5.493653e-16, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: Bu_new_RIG:finger1_3
+      parentName: Bu_new_RIG:finger1_2
+      position: {x: -0.0019975563, y: -0.000031681542, z: 0}
+      rotation: {x: -0, y: 8.1315163e-16, z: -0.000000023283064, w: 1}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: Bu_new_RIG:Thumb1
+      parentName: Bu_new_RIG:HandL2
+      position: {x: -0.0015678827, y: -0.000012518507, z: 0.0027379363}
+      rotation: {x: -0.0047113784, y: -0.1943683, z: -0.0024963825, w: 0.9809141}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Bu_new_RIG:Thumb2
+      parentName: Bu_new_RIG:Thumb1
+      position: {x: -0.000020384514, y: -0.00001848411, z: 0.0014776088}
+      rotation: {x: 0.000000029103827, y: 0.0000000036379788, z: 0.00000004074536,
+        w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1.0000002}
+    - name: Bu_new_RIG:LegR0
+      parentName: Bu_new_RIG:main1
+      position: {x: 0.0036743325, y: -0.0033850882, z: -2.7117093e-33}
+      rotation: {x: -0.011392787, y: 0.00005957589, z: -0.00028857202, w: 0.9999351}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:LegR1
+      parentName: Bu_new_RIG:LegR0
+      position: {x: -0.000087529996, y: -0.013877609, z: 0.001702174}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:LegR2
+      parentName: Bu_new_RIG:LegR1
+      position: {x: -0.00004077, y: -0.0114371665, z: -0.0017776251}
+      rotation: {x: -0, y: -0, z: -9.337157e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FootR1
+      parentName: Bu_new_RIG:LegR2
+      position: {x: 0.0013436195, y: -0.0010654585, z: 0.0019916801}
+      rotation: {x: 0.010034237, y: -0.107727095, z: -0.0023127573, w: 0.99412715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FootR2
+      parentName: Bu_new_RIG:FootR1
+      position: {x: 0.0015206137, y: -0.0001227641, z: 0.002254011}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:LegL0
+      parentName: Bu_new_RIG:main1
+      position: {x: -0.0036743276, y: -0.0033850882, z: -2.8349687e-33}
+      rotation: {x: 0.076429255, y: 0.06913833, z: -0.04150536, w: 0.99380875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:LegL1
+      parentName: Bu_new_RIG:LegL0
+      position: {x: 0.000087529996, y: -0.013877609, z: 0.001702174}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:LegL2
+      parentName: Bu_new_RIG:LegL1
+      position: {x: 0.00004077, y: -0.0114371665, z: -0.0017776251}
+      rotation: {x: -4.440892e-14, y: 6.4640617e-28, z: -1.4555773e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FootL1
+      parentName: Bu_new_RIG:LegL2
+      position: {x: -0.0014761096, y: -0.0013458745, z: 0.0018454037}
+      rotation: {x: 7.5495166e-13, y: 1.7981589e-25, z: 2.699396e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:FootL2
+      parentName: Bu_new_RIG:FootL1
+      position: {x: -0.0014144912, y: 0.00013674295, z: 0.0024393725}
+      rotation: {x: -0, y: -0, z: -1.357523e-37, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:body_BU
+      parentName: BU_Character_intro(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:eye_R
+      parentName: Bu_new_RIG:body_BU
+      position: {x: 0.0023005812, y: 0.061221823, z: 0.005344621}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:eye_L
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0.0023005812, y: 0.061221823, z: 0.005344621}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:eye_lid_R_D
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0.00010154677, y: 0.0612248, z: 0.005309603}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:eye_lid_R_T
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0.00010154677, y: 0.061184116, z: 0.005309603}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:eye_lid_L_D
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0.004706815, y: 0.0612248, z: 0.005309603}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:eye_lid_L_T
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0.004706815, y: 0.061184116, z: 0.005309603}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:polySurface4
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:polySurface12
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:polySurface13
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:polySurface10
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:polySurface11
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:polySurface3
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:polySurface9
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0, y: 0.048823766, z: 0.0020080383}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:polySurface14
+      parentName: Bu_new_RIG:polySurface9
+      position: {x: -0, y: -0.048823766, z: -0.0020080383}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:polySurface15
+      parentName: Bu_new_RIG:polySurface9
+      position: {x: -0, y: -0.048823766, z: -0.0020080383}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:polySurface17
+      parentName: Bu_new_RIG:body_BU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bu_new_RIG:ffd1Base
+      parentName: BU_Character_intro(Clone)
+      position: {x: -0.000013002604, y: 0.06112928, z: 0.005310921}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.93876255, y: 0.50138664, z: 0.51993024}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

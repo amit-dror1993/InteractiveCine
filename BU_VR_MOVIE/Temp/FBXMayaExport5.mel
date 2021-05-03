@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "/Users/pazrotshtein/Sync/Paz/Anmetz/Unxity/BU_VR_MOVIE/Assets/class_scene1/Class_main_walls.ma"`)
+{		
+	file -o "/Users/pazrotshtein/Sync/Paz/Anmetz/Unxity/BU_VR_MOVIE/Assets/class_scene1/Class_main_walls.ma";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "/Users/pazrotshtein/Sync/Paz/Anmetz/Unxity/BU_VR_MOVIE/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "/Users/pazrotshtein/Sync/Paz/Anmetz/Unxity/BU_VR_MOVIE/Temp/CommandPipe";
+
+$donepipeKill = `fopen "/Users/pazrotshtein/Sync/Paz/Anmetz/Unxity/BU_VR_MOVIE/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;
