@@ -60,7 +60,7 @@ def calcStress(data):
 
 def saveSample():
     global samples
-    samples,timestamps = inlet.pull_chunk(timeout=15, max_samples=30000)
+    samples,timestamps = inlet.pull_chunk(timeout=5, max_samples=30000)
    # print("got %s at time %s" % (samples[0], timestamps))
     samples = np.array(samples).ravel()
     m_timestamps = np.array(timestamps)
@@ -89,7 +89,7 @@ calcLowBseline()
 
 while True:
     #global sdnn,bMaxSdnn, bLowSdnn
-
+    
     data, time = saveSample()
     sdnn = calcStress(data)
     print("SDNN %s" % (sdnn))
@@ -114,7 +114,7 @@ while True:
         outlet.push_sample(x)
         print("now sending Low freq ..." )
     else:
-        x=[15,sdnn,0,4]
+        x=[2,sdnn,0,4]
         outlet.push_sample(x)
         print("now sending optimal freq ..." )
         
