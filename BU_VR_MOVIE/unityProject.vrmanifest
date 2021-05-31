@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.bu_vr_movie.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "E:\\ARL\\InteractiveCine\\BU_VR_MOVIE\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "BU_VR_MOVIE [Testing]"
+        }
+      }
+    }
+  ]
+}

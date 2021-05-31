@@ -89,7 +89,7 @@ calcLowBseline()
 
 while True:
     #global sdnn,bMaxSdnn, bLowSdnn
-    
+
     data, time = saveSample()
     sdnn = calcStress(data)
     print("SDNN %s" % (sdnn))
@@ -114,7 +114,7 @@ while True:
         outlet.push_sample(x)
         print("now sending Low freq ..." )
     else:
-        x=[2,sdnn,0,4]
+        x=[5,sdnn,0,4]
         outlet.push_sample(x)
         print("now sending optimal freq ..." )
         

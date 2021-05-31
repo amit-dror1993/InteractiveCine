@@ -1,6 +1,8 @@
 ﻿using System.Collections; 
 using UnityEngine; 
 using Assets.LSL4Unity.Scripts.AbstractInlets;
+using System.IO;
+using UnityEngine.SceneManagement;
 
 namespace Assets.LSL4Unity.Scripts.Examples {
 
@@ -22,14 +24,20 @@ namespace Assets.LSL4Unity.Scripts.Examples {
         public bool useZ;
 
         private bool pullSamplesContinuously = false;
+        private System.Diagnostics.Process p = new System.Diagnostics.Process();
+
 
 
         void Start()
         {
-            // [optional] call this only, if your gameobject hosting this component
-            // got instantiated during runtime
-            
-            // registerAndLookUpStream();
+            /*
+            p.StartInfo.FileName = Directory.GetCurrentDirectory().ToString() + @"Assets\LSL4Unity\recieveData.py";
+            p.StartInfo.UseShellExecute = false;
+            p.StartInfo.RedirectStandardOutput = true;
+            p.Start();
+
+            Debug.Log(p.StandardOutput.ReadToEnd());
+            */
         }
 
         protected override bool isTheExpected(LSLStreamInfoWrapper stream)
@@ -51,6 +59,18 @@ namespace Assets.LSL4Unity.Scripts.Examples {
         /// <param name="timeStamp"></param>
         protected override void Process(float[] newSample, double timeStamp)
         {
+            //float x = useX ? newSample[0] : 1;
+            float f_postPyCalc = useY ? newSample[1] : 1;
+            //float z = useZ ? newSample[2] : 1;
+            
+            Debug.Log("SDNN = " + f_postPyCalc);
+
+            if (f_postPyCalc > 299)
+            {
+                SceneManager.LoadScene("Intro", LoadSceneMode.Additive);
+            }
+
+            /*------ original code
             //Assuming that a sample contains at least 3 values for x,y,z
             float x = useX ? newSample[0] : 1;
             float y = useY ? newSample[1] : 1;
@@ -61,11 +81,14 @@ namespace Assets.LSL4Unity.Scripts.Examples {
 
             // apply the rotation to the target transform
             targetTransform.localScale = targetScale;
+            */
         }
 
         protected override void OnStreamAvailable()
         {
             pullSamplesContinuously = true;
+            
+
         }
 
         protected override void OnStreamLost()
@@ -78,5 +101,7 @@ namespace Assets.LSL4Unity.Scripts.Examples {
             if(pullSamplesContinuously)
                 pullSamples();
         }
+
+       
     }
 }
